@@ -1,0 +1,17 @@
+@use "global" as *;
+
+// sp size 375px
+.nav__li {
+  // tb size 768px
+  @include mq(md) {
+    font-family: "游ゴシック";
+    font-weight: $regular;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  // pc size 1440px
+  @include mq(xl) {
+  }
+}

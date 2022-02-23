@@ -1,0 +1,14 @@
+@use "global" as *;
+
+// sm size 375px
+.nav__mdfy {
+  // tb size 768px
+  @include mq(md) {
+    max-width: 56.29375rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  // pc size 1440px
+  @include mq(xl) {
+  }
+}

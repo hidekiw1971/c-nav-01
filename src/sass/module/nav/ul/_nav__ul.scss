@@ -1,0 +1,15 @@
+@use "global" as *;
+
+// sp size 375px
+.nav__ul {
+  display: none;
+
+  // tb size 768px
+  @include mq(md) {
+    display: flex;
+  }
+
+  // pc size 1440px
+  @include mq(xl) {
+  }
+}
